@@ -36,3 +36,8 @@ h1{
     display: flex;
     justify-content: center;
 }
+.people body{
+    background-image: url(../Images/tafel.png
+    background-repeat: no-repeat;
+    background-size: cover;
+}
