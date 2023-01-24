@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: elite;
+    src: url(../Fonts/Special_Elite/SpecialElite-Regular.ttf);
+}
+h1{
+    font-family: elite;
+}
+body{
+    background-image: url(../Images/party.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titel{
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 0%;
+
+}
+nav{
+    text-align: center;
+    
+}
+.erin{
+    text-align: center;
+}
+.people h1{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
