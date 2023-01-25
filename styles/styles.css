@@ -3,41 +3,99 @@
     font-family: elite;
     src: url(../Fonts/Special_Elite/SpecialElite-Regular.ttf);
 }
-h1{
+h2{
     font-family: elite;
+    
+
 }
-body{
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body {
+    margin-top: 0em;
+    
+}
+
+body.home {
     background-image: url(../Images/party.png);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+
+body.people {
+    background-image: url(../Images/banner\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.uitslag {
+    background-image: url(../Images/schaatsen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .titel{
     color: black;
     background-color: white;
     text-align: center;
-    padding-top: 1em;
-    margin-top: 0%;
+    padding-top: 0,5em;
+    padding-bottom: 0,5em;
+}
 
-}
 nav{
-    text-align: center;
-    
+ text-align: center;
+margin-right: 3em;
 }
+
 .erin{
     text-align: center;
 }
+
 .people h1{
     text-align: center;
 }
-h1{
+h2{
     color: white;
 }
-.input {
+.inputafb {
     display: flex;
     justify-content: center;
+    margin-top: 16em;
 }
-.people body{
-    background-image: url(../Images/tafel.png
-    background-repeat: no-repeat;
-    background-size: cover;
+
+li{
+   list-style: none;
 }
+.people{
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 0,5em;
+    padding-bottom: 0,5em;
+    margin-top: 0%;
+}
+.boven {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 0%;  
+}
+   
+    
+
+.uitslagkader{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+   
+}
+
+
