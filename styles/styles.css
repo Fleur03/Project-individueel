@@ -44,16 +44,16 @@ body.uitslag {
     color: black;
     background-color: white;
     text-align: center;
-    padding-top: 0,5em;
-    padding-bottom: 0,5em;
+    padding-top: 0%
+   
 }
 
 .people header{
     color: black;
     background-color: white;
     text-align: center;
-    padding-top: 0,5em;
-    padding-bottom: 0,5em;
+    padding-top: 0%
+  
 }
 
 nav{
@@ -85,14 +85,10 @@ li{
     color: black;
     background-color: white;
     text-align: center;
-    padding-top: 0,5em;
-    padding-bottom: 0,5em;
+    padding-top: 0%
 }
 
-   
-    
-
-.uitslagkader{
+   .uitslagkader{
     display: flex;
     justify-content: center;
     margin-top: 5em;
