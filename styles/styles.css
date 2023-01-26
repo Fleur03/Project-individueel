@@ -1,10 +1,10 @@
 
 @font-face {
-    font-family: elite;
-    src: url(../Fonts/Special_Elite/SpecialElite-Regular.ttf);
+    font-family: karma;
+    src: url(../Fonts/Karma/Karma-Medium.ttf);
 }
 h2{
-    font-family: elite;
+    font-family: karma;
     
 
 }
@@ -26,7 +26,7 @@ body.home {
 }
 
 body.people {
-    background-image: url(../Images/banner\ 8.png);
+    background-image: url(../Images/banner\ 8.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -48,6 +48,14 @@ body.uitslag {
     padding-bottom: 0,5em;
 }
 
+.people header{
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 0,5em;
+    padding-bottom: 0,5em;
+}
+
 nav{
  text-align: center;
 margin-right: 3em;
@@ -57,11 +65,11 @@ margin-right: 3em;
     text-align: center;
 }
 
-.people h1{
+.people h2{
     text-align: center;
 }
 h2{
-    color: white;
+    color: black;
 }
 .inputafb {
     display: flex;
@@ -72,22 +80,15 @@ h2{
 li{
    list-style: none;
 }
-.people{
+
+.uitslag header{
     color: black;
     background-color: white;
     text-align: center;
     padding-top: 0,5em;
     padding-bottom: 0,5em;
-    margin-top: 0%;
 }
-.boven {
-    color: black;
-    background-color: white;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-top: 0%;  
-}
+
    
     
 
@@ -97,5 +98,12 @@ li{
     margin-top: 5em;
    
 }
+
+.uitslag h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
 
 
