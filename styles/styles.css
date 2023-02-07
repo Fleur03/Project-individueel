@@ -3,26 +3,46 @@
     font-family: karma;
     src: url(../Fonts/Karma/Karma-Medium.ttf);
 }
-h2{
-    font-family: karma;
-    
 
-}
+
 h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: karma;
     color: white;
+    background-color: #DBA289;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 0%;
+   }
+
+
+.tekstvak{
+    background-color: white;
+    padding: 1em;
+    height: 210px;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    height: 60px;
+    margin-top: 7%;
 }
 
 body {
     margin-top: 0em;
-    
 }
 
 body.home {
     background-image: url(../Images/party.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
 }
 
 body.people {
@@ -40,66 +60,45 @@ body.uitslag {
     background-attachment: fixed;
 }
 
-.titel{
-    color: black;
-    background-color: white;
-    text-align: center;
-    padding-top: 0%
-   
-}
-
-.people header{
-    color: black;
-    background-color: white;
-    text-align: center;
-    padding-top: 0%
-  
-}
 
 nav{
  text-align: center;
-margin-right: 3em;
+ margin-right: 4em;
 }
 
-.erin{
-    text-align: center;
-}
 
-.people h2{
-    text-align: center;
-}
-h2{
-    color: black;
-}
 .inputafb {
     display: flex;
     justify-content: center;
-    margin-top: 16em;
+    margin-top: 14em;
 }
 
 li{
    list-style: none;
 }
 
-.uitslag header{
-    color: black;
-    background-color: white;
-    text-align: center;
-    padding-top: 0%
-}
-
-   .uitslagkader{
+.footer1 {
     display: flex;
     justify-content: center;
-    margin-top: 5em;
-   
+    color: white;
+    position: relative;
+    bottom: 0px;
 }
 
-.uitslag h2{
+.footer2{
     display: flex;
     justify-content: center;
-    color: black;
+    color: white; 
+    bottom: auto;
+    margin-top: 18em;
 }
 
+.footer3{
+    display: flex;
+    justify-content: center;
+    color: white; 
+    bottom: auto;
+    margin-top: 12em;  
+}
 
 
